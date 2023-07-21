@@ -150,10 +150,12 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px 150px;
     font-size: 5rem;
+    gap:30px
   }
   
   .galeria img {
     background-color: rebeccapurple;
     color: white;
     padding: 1rem;
+
   }
