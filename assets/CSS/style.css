@@ -4,6 +4,28 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.linea {
+    background: color-mix(in hsl longer hue, color percentage, color percentage)
+    height:   5px;
+    width: 100%;
+    display: block;
+
+}
+
+
+
+
 
 
 .arriba{
@@ -148,23 +170,33 @@ footer {
     height: 100%;
  }
  
- body{
-    font-family: 'Raleway', sans-serif;
-}
+
 .galeria {
     display: grid;
-    padding: 1rem;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto ;
+    grid-gap: 10px;
+    padding: 40px;
+    overflow: hidden; 
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px 150px;
     font-size: 5rem;
     gap:30px
+    
   }
   
   .galeria img {
-    background-color: rebeccapurple;
-    color: white;
-    padding: 1rem;
     width:100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .galeria> a{
+    display: block;
+    position:relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 
   }
