@@ -143,3 +143,17 @@ footer {
  body{
     font-family: 'Raleway', sans-serif;
 }
+.galeria {
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 150px;
+    font-size: 5rem;
+  }
+  
+  .galeria img {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+  }
