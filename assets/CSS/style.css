@@ -138,7 +138,7 @@ div h2 {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: rgb(100, 165, 211);
+   background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/063/396/themes/new_linkedman/1-img-196366284-1677610972-a55ffa110d681156aa0a5ef10ca93a351677610972-1920-1920.webp?665168498);
     color: white;
 }
 
@@ -180,7 +180,7 @@ aside {
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    width: 95%;
+    width: 100%;
     margin: auto;
     grid-gap: 10px;
     padding: 40px;
@@ -224,11 +224,17 @@ aside {
 }
 
 h2 {
-    background-color: blueviolet;
+    background-color: rgb(122, 204, 220);
     width: 100%;
     text-align: center;
 }
 
 #Parrafo {
     text-align: center;
+}
+
+.colorCentral {
+    text-align: center;
+    padding: 3px;
+    background-image: url(c:\Users\Usuario\AppData\Local\Temp\17-695d05066d23497f4b16776121252085-1920-1920.png)
 }
