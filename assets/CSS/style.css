@@ -240,3 +240,56 @@ h2 {
 }
 .titulo{  back
 }
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    color: #f7f2f2;
+
+
+a.whatsapp-link {
+    color: #ff0000; 
+  }
+  
+
+  a.whatsapp-link:hover {
+    color: #00ff00; 
+  }
+
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links li a {
+    color: #f1eaea;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    color: #f3eaea;
+}
+
+.hablameWhastapp{
+    color: #f3eaea;
+}
