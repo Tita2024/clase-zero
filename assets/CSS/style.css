@@ -293,3 +293,73 @@ a.whatsapp-link {
 .hablameWhastapp{
     color: #f3eaea;
 }
+
+.footer-content-index{ 
+
+    background-image: url(https://cdn0.geoenciclopedia.com/es/posts/2/1/1/tipos_de_nubes_112_orig.jpg)
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff; 
+}
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.maps {
+    width: 600px; 
+    height: 400px; 
+}
+
+
+
+
+/* Estilos del header */
+.header {
+    background-color: #333; /* Color de fondo del header */
+    color: #fff; /* Color del texto en el header */
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px; /* Ancho máximo del header */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-menu li:first-child {
+    margin-left: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #555; /* Color de fondo al pasar el cursor sobre el enlace */
+}
